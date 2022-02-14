@@ -1,0 +1,17 @@
+x = int(input("1st variable: "))
+y = int(input("2nd variable: "))
+operator = input("Operator(+,-,*,/): ")
+
+print()
+print("{} {} {}:".format(x, operator, y))
+
+if operator == "+":
+    print(x + y)
+elif operator == "-":
+    print(x - y)
+elif operator == "*":
+    print(x * y)
+elif operator == "/":
+    print(x / y)
+else:
+    print("Invalid operator")

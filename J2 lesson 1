@@ -1,0 +1,17 @@
+let x = 12;
+const zero = 0;
+
+if(typeof(x)=='number'){
+  if(x>0){
+    console.log('x is a positive number')
+  }
+else if(x<0){
+  console.log('x is a negetive number')
+}
+  else{
+console.log('dont type 0')
+  }
+
+
+  
+}
